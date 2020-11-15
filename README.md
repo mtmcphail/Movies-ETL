@@ -20,12 +20,27 @@ To create 4 technical analysis deliverables to further automate the ETL process 
 4. Create the Movie Database and import the merged movie database (with ratings) and the original ratings.csv file
 
 ## Resources
-The raw data files include
+Jupyter Lab was used to code the ETL process and many Python imports and modules were required:
+	
+* json
+* numpy as np
+* os
+* pandas as pd
+* psycopg2
+* re
+* from sqlalchemy import create_engine
+* time
+
+
+pgAdmin and PostgreSQL were employed to house and query the resulting database.
+
+The raw data files include:
+
 1. movies_metadata.csv from Kaggle.com
 2. wikipedia-movies.json from Wikipedia
 3. ratings.csv from 
 
-***Due to the size of the ```ratings.csv``` file, it has not been uploaded to this repository as per instructions.** The other 2 source files are located in the **Resources** folder.
+***Due to the size of the ```ratings.csv``` file, it has not been uploaded to this repository as per instructions.*** The other 2 source files are located in the **Resources** folder.
 
 ## Analysis
 Some of the steps taken to "clean" the Wikipedia and Kaggle data include:
