@@ -59,6 +59,31 @@ Once cleaned and transformed, the merged movie data frame is further merged with
 The resulting merged dataframe is uploaded along with the original ratings.csv file into a ```movie_data``` database housed in pgAdmin and is ready for the hack-a-thon!
 
 ## Results
+### Dataframes 
+A sample of screenshots of the data throughout the ETL process; check points of progress:
+
+**Deliverable 1 and 2:**  
+```wiki_movies_df```:
+
+![wiki_movies](./Resources/wiki_movies_df_head.png)
+
+```wiki_movies_df``` list of columns: 
+![wiki_movies](./Resources/wiki_df_columns.png)
+
+```kaggle_metdata```
+![wiki_movies](./Resources/kaggle_metadata_head.png)
+
+**Deliverable 3:**  
+```movies_with_ratings_df```
+![wiki_movies](./Resources/movies_with_ratings_df_head.png)
+
+```movies_df```  
+![movies_df](./Resources/movies_df_head.png)
+
+
+The final ```movies_df``` along with the original ```ratings.csv``` file was imported into the ```movies_data``` SQL database.
+
+### SQL Database table
 The ratings.csv file was successfully imported to the```movie_data``` SQL database...all 26,024,289 rows!  
 
 ![query2](./Resources/ratings_query.png)
