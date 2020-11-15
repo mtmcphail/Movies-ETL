@@ -38,7 +38,7 @@ The raw data files include:
 
 1. movies_metadata.csv from Kaggle.com
 2. wikipedia-movies.json from Wikipedia
-3. ratings.csv from 
+3. ratings.csv from Kaggle.com
 
 ***Due to the size of the ```ratings.csv``` file, it has not been uploaded to this repository as per instructions.*** The other 2 source files are located in the **Resources** folder.
 
