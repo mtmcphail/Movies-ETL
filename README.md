@@ -93,7 +93,9 @@ Similarly, the final merged movie data is successfully imported to the ```movie_
 ![query1](./Resources/movies_query.png)
 
 **Please note:**  
-The total number of rows is **6,051**, rather than **6,052** as noted on the Challenge results because there was one (1) corrupt row of data that resulted after the merge between the Wikipedia dataframe and the Kaggle dataframe.  This row included Wikipedia data from "The Holiday" and Kaggle information from "From Here to Eternity" merging into one row.  In the spirit of cleaning the data, I decided to drop this row even though the instructions for the Challenge did not indicate to do so.
+The total number of rows is **6,051**, rather than **6,052** as noted on the Challenge results because there was one (1) corrupt row of data that resulted after the merge between the Wikipedia dataframe and the Kaggle dataframe.  
+
+This row included Wikipedia data from "The Holiday" and Kaggle.com data from "From Here to Eternity" merging into one row.  In the spirit of cleaning the data, I decided to drop this row even though the instructions for the Challenge did not indicate to do so.
 
 When the code is re-run without removing this row, the total number of rows of ```movies_df``` is **6,052**.  Below is a snapshot of the corrupt data and the new total when it is included in (i.e. not dropped from) the data frame.
 
